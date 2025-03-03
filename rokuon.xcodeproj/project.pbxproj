@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B39049E2D69E40C001AEB63 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3B39049D2D69E40C001AEB63 /* AudioKitUI */; };
+		3B3904A12D69E434001AEB63 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B3904A02D69E434001AEB63 /* SoundpipeAudioKit */; };
+		3BA12AEF2D525BEC00D9655E /* rokuonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */; };
+		3BA12AF12D525BEC00D9655E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12AF02D525BEC00D9655E /* ContentView.swift */; };
+		3BA12AF32D525BEE00D9655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA12AF22D525BEE00D9655E /* Assets.xcassets */; };
+		3BA12AF62D525BEE00D9655E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA12AF52D525BEE00D9655E /* Preview Assets.xcassets */; };
+		3BA12B002D525BEE00D9655E /* rokuonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12AFF2D525BEE00D9655E /* rokuonTests.swift */; };
+		3BA12B0A2D525BEE00D9655E /* rokuonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12B092D525BEE00D9655E /* rokuonUITests.swift */; };
+		3BA12B0C2D525BEE00D9655E /* rokuonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12B0B2D525BEE00D9655E /* rokuonUITestsLaunchTests.swift */; };
+		3BAB30FA2D69E29900AEAA43 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BAB30F92D69E29900AEAA43 /* AudioKit */; };
+		3BAB30FD2D69E35A00AEAA43 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 3BAB30FC2D69E35A00AEAA43 /* AudioKitEX */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA12AFC2D525BEE00D9655E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA12AE32D525BEC00D9655E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA12AEA2D525BEC00D9655E;
+			remoteInfo = rokuon;
+		};
+		3BA12B062D525BEE00D9655E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA12AE32D525BEC00D9655E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA12AEA2D525BEC00D9655E;
+			remoteInfo = rokuon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA12AEB2D525BEC00D9655E /* rokuon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokuon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokuonApp.swift; sourceTree = "<group>"; };
+		3BA12AF02D525BEC00D9655E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BA12AF22D525BEE00D9655E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA12AF52D525BEE00D9655E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BA12AFB2D525BEE00D9655E /* rokuonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokuonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA12AFF2D525BEE00D9655E /* rokuonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokuonTests.swift; sourceTree = "<group>"; };
+		3BA12B052D525BEE00D9655E /* rokuonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokuonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA12B092D525BEE00D9655E /* rokuonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokuonUITests.swift; sourceTree = "<group>"; };
+		3BA12B0B2D525BEE00D9655E /* rokuonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokuonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA12AE82D525BEC00D9655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB30FA2D69E29900AEAA43 /* AudioKit in Frameworks */,
+				3B39049E2D69E40C001AEB63 /* AudioKitUI in Frameworks */,
+				3B3904A12D69E434001AEB63 /* SoundpipeAudioKit in Frameworks */,
+				3BAB30FD2D69E35A00AEAA43 /* AudioKitEX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12AF82D525BEE00D9655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12B022D525BEE00D9655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA12AE22D525BEC00D9655E = {
+			isa = PBXGroup;
+			children = (
+				3BA12AED2D525BEC00D9655E /* rokuon */,
+				3BA12AFE2D525BEE00D9655E /* rokuonTests */,
+				3BA12B082D525BEE00D9655E /* rokuonUITests */,
+				3BA12AEC2D525BEC00D9655E /* Products */,
+				3BAB30F82D69E29900AEAA43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA12AEC2D525BEC00D9655E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA12AEB2D525BEC00D9655E /* rokuon.app */,
+				3BA12AFB2D525BEE00D9655E /* rokuonTests.xctest */,
+				3BA12B052D525BEE00D9655E /* rokuonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA12AED2D525BEC00D9655E /* rokuon */ = {
+			isa = PBXGroup;
+			children = (
+				3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */,
+				3BA12AF02D525BEC00D9655E /* ContentView.swift */,
+				3BA12AF22D525BEE00D9655E /* Assets.xcassets */,
+				3BA12AF42D525BEE00D9655E /* Preview Content */,
+			);
+			path = rokuon;
+			sourceTree = "<group>";
+		};
+		3BA12AF42D525BEE00D9655E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BA12AF52D525BEE00D9655E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BA12AFE2D525BEE00D9655E /* rokuonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA12AFF2D525BEE00D9655E /* rokuonTests.swift */,
+			);
+			path = rokuonTests;
+			sourceTree = "<group>";
+		};
+		3BA12B082D525BEE00D9655E /* rokuonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA12B092D525BEE00D9655E /* rokuonUITests.swift */,
+				3BA12B0B2D525BEE00D9655E /* rokuonUITestsLaunchTests.swift */,
+			);
+			path = rokuonUITests;
+			sourceTree = "<group>";
+		};
+		3BAB30F82D69E29900AEAA43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA12AEA2D525BEC00D9655E /* rokuon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA12B0F2D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuon" */;
+			buildPhases = (
+				3BA12AE72D525BEC00D9655E /* Sources */,
+				3BA12AE82D525BEC00D9655E /* Frameworks */,
+				3BA12AE92D525BEC00D9655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rokuon;
+			packageProductDependencies = (
+				3BAB30F92D69E29900AEAA43 /* AudioKit */,
+				3BAB30FC2D69E35A00AEAA43 /* AudioKitEX */,
+				3B39049D2D69E40C001AEB63 /* AudioKitUI */,
+				3B3904A02D69E434001AEB63 /* SoundpipeAudioKit */,
+			);
+			productName = rokuon;
+			productReference = 3BA12AEB2D525BEC00D9655E /* rokuon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA12AFA2D525BEE00D9655E /* rokuonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA12B122D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuonTests" */;
+			buildPhases = (
+				3BA12AF72D525BEE00D9655E /* Sources */,
+				3BA12AF82D525BEE00D9655E /* Frameworks */,
+				3BA12AF92D525BEE00D9655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA12AFD2D525BEE00D9655E /* PBXTargetDependency */,
+			);
+			name = rokuonTests;
+			productName = rokuonTests;
+			productReference = 3BA12AFB2D525BEE00D9655E /* rokuonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA12B042D525BEE00D9655E /* rokuonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA12B152D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuonUITests" */;
+			buildPhases = (
+				3BA12B012D525BEE00D9655E /* Sources */,
+				3BA12B022D525BEE00D9655E /* Frameworks */,
+				3BA12B032D525BEE00D9655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA12B072D525BEE00D9655E /* PBXTargetDependency */,
+			);
+			name = rokuonUITests;
+			productName = rokuonUITests;
+			productReference = 3BA12B052D525BEE00D9655E /* rokuonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA12AE32D525BEC00D9655E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3BA12AEA2D525BEC00D9655E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3BA12AFA2D525BEE00D9655E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BA12AEA2D525BEC00D9655E;
+					};
+					3BA12B042D525BEE00D9655E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BA12AEA2D525BEC00D9655E;
+					};
+				};
+			};
+			buildConfigurationList = 3BA12AE62D525BEC00D9655E /* Build configuration list for PBXProject "rokuon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA12AE22D525BEC00D9655E;
+			packageReferences = (
+				3BAB30F72D69E28D00AEAA43 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				3BAB30FB2D69E35000AEAA43 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				3B39049C2D69E3FF001AEB63 /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				3B39049F2D69E423001AEB63 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
+			productRefGroup = 3BA12AEC2D525BEC00D9655E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA12AEA2D525BEC00D9655E /* rokuon */,
+				3BA12AFA2D525BEE00D9655E /* rokuonTests */,
+				3BA12B042D525BEE00D9655E /* rokuonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA12AE92D525BEC00D9655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA12AF62D525BEE00D9655E /* Preview Assets.xcassets in Resources */,
+				3BA12AF32D525BEE00D9655E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12AF92D525BEE00D9655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12B032D525BEE00D9655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA12AE72D525BEC00D9655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA12AF12D525BEC00D9655E /* ContentView.swift in Sources */,
+				3BA12AEF2D525BEC00D9655E /* rokuonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12AF72D525BEE00D9655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA12B002D525BEE00D9655E /* rokuonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA12B012D525BEE00D9655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA12B0C2D525BEE00D9655E /* rokuonUITestsLaunchTests.swift in Sources */,
+				3BA12B0A2D525BEE00D9655E /* rokuonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA12AFD2D525BEE00D9655E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA12AEA2D525BEC00D9655E /* rokuon */;
+			targetProxy = 3BA12AFC2D525BEE00D9655E /* PBXContainerItemProxy */;
+		};
+		3BA12B072D525BEE00D9655E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA12AEA2D525BEC00D9655E /* rokuon */;
+			targetProxy = 3BA12B062D525BEE00D9655E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BA12B0D2D525BEE00D9655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA12B0E2D525BEE00D9655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA12B102D525BEE00D9655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rokuon/Preview Content\"";
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "お願い";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA12B112D525BEE00D9655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rokuon/Preview Content\"";
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "お願い";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BA12B132D525BEE00D9655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokuon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rokuon";
+			};
+			name = Debug;
+		};
+		3BA12B142D525BEE00D9655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokuon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rokuon";
+			};
+			name = Release;
+		};
+		3BA12B162D525BEE00D9655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rokuon;
+			};
+			name = Debug;
+		};
+		3BA12B172D525BEE00D9655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erichan.rokuonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rokuon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA12AE62D525BEC00D9655E /* Build configuration list for PBXProject "rokuon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA12B0D2D525BEE00D9655E /* Debug */,
+				3BA12B0E2D525BEE00D9655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA12B0F2D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA12B102D525BEE00D9655E /* Debug */,
+				3BA12B112D525BEE00D9655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA12B122D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA12B132D525BEE00D9655E /* Debug */,
+				3BA12B142D525BEE00D9655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA12B152D525BEE00D9655E /* Build configuration list for PBXNativeTarget "rokuonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA12B162D525BEE00D9655E /* Debug */,
+				3BA12B172D525BEE00D9655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B39049C2D69E3FF001AEB63 /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.7;
+			};
+		};
+		3B39049F2D69E423001AEB63 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+		3BAB30F72D69E28D00AEAA43 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		3BAB30FB2D69E35000AEAA43 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B39049D2D69E40C001AEB63 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B39049C2D69E3FF001AEB63 /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		3B3904A02D69E434001AEB63 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B39049F2D69E423001AEB63 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		3BAB30F92D69E29900AEAA43 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BAB30F72D69E28D00AEAA43 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		3BAB30FC2D69E35A00AEAA43 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BAB30FB2D69E35000AEAA43 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BA12AE32D525BEC00D9655E /* Project object */;
+}
