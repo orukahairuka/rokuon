@@ -10,6 +10,7 @@
 		3B39049E2D69E40C001AEB63 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3B39049D2D69E40C001AEB63 /* AudioKitUI */; };
 		3B3904A12D69E434001AEB63 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B3904A02D69E434001AEB63 /* SoundpipeAudioKit */; };
 		3B9A63912D75522500D613F4 /* AudioAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A63902D75522500D613F4 /* AudioAnalyzer.swift */; };
+		3B9A63932D75542800D613F4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A63922D75542800D613F4 /* GameScene.swift */; };
 		3BA12AEF2D525BEC00D9655E /* rokuonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */; };
 		3BA12AF12D525BEC00D9655E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA12AF02D525BEC00D9655E /* ContentView.swift */; };
 		3BA12AF32D525BEE00D9655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA12AF22D525BEE00D9655E /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		3B9A63902D75522500D613F4 /* AudioAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyzer.swift; sourceTree = "<group>"; };
+		3B9A63922D75542800D613F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3BA12AEB2D525BEC00D9655E /* rokuon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokuon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokuonApp.swift; sourceTree = "<group>"; };
 		3BA12AF02D525BEC00D9655E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				3BA12AEE2D525BEC00D9655E /* rokuonApp.swift */,
 				3BA12AF02D525BEC00D9655E /* ContentView.swift */,
 				3B9A63902D75522500D613F4 /* AudioAnalyzer.swift */,
+				3B9A63922D75542800D613F4 /* GameScene.swift */,
 				3BA12AF22D525BEE00D9655E /* Assets.xcassets */,
 				3BA12AF42D525BEE00D9655E /* Preview Content */,
 			);
@@ -290,6 +293,7 @@
 			files = (
 				3BA12AF12D525BEC00D9655E /* ContentView.swift in Sources */,
 				3B9A63912D75522500D613F4 /* AudioAnalyzer.swift in Sources */,
+				3B9A63932D75542800D613F4 /* GameScene.swift in Sources */,
 				3BA12AEF2D525BEC00D9655E /* rokuonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
